@@ -1,0 +1,49 @@
+body {
+  background-color: #dbc9a0;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-size: 14vmin;
+  text-align: center;
+  font-family: 'Baloo Paaji 2';
+  margin-bottom: 0;
+  margin-top: 4vmin;
+  margin-bottom: 2vmin;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 3vmin;
+  font-family: 'Baloo Paaji 2';
+}
+
+h5 {
+  font-size: 2vmin;
+  margin-top: -6px;
+}
+
+p {
+  margin-top: -6px;
+  font-family: 'Schoolbell';
+}
+
+#mainContatiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 8vmin;
+  margin-left: 15vmin;
+  margin-right: 15vmin;
+}
+
+.newImage {
+  width: 160px;
+  height: 320px;
+}
+
+.contentItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
